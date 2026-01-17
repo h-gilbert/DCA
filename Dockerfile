@@ -4,6 +4,7 @@ FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/
 COPY portfolio.html /usr/share/nginx/html/
 COPY styles.css /usr/share/nginx/html/
+COPY favicon.svg /usr/share/nginx/html/
 
 # Copy nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
