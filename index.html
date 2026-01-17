@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALC Portfolio | A Project by Hamish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grain-overlay"></div>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-mark">◈</span>
+                <span class="logo-text">CALC Portfolio</span>
+            </a>
+            <div class="nav-links">
+                <a href="#why" class="nav-link">Why</a>
+                <a href="#what" class="nav-link">What</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-grid">
+            <div class="hero-left">
+                <div class="hero-eyebrow">
+                    <span class="eyebrow-line"></span>
+                    <span>A personal project</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Building my own</span>
+                    <span class="title-line title-accent">DCA analytics.</span>
+                </h1>
+                <p class="hero-desc">
+                    I'm moving my investing from centralized exchanges to decentralized protocols.
+                    This is a tool I'm building to track my portfolio along the way.
+                </p>
+                <div class="hero-actions">
+                    <a href="#why" class="btn-ghost">Read more below</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-visual">
+                    <div class="visual-card card-1">
+                        <div class="card-label">True Cost Basis</div>
+                        <div class="card-value">$2.47<span class="value-cents">/RUNE</span></div>
+                        <div class="card-change positive">47 entries</div>
+                    </div>
+                    <div class="visual-card card-2">
+                        <div class="card-label">Total Deployed</div>
+                        <div class="card-value">$12,400</div>
+                        <div class="card-sublabel">Stablecoins</div>
+                    </div>
+                    <div class="visual-card card-3">
+                        <div class="card-label">Fees Paid</div>
+                        <div class="card-value">$84</div>
+                        <div class="card-sublabel">Included in basis</div>
+                    </div>
+                    <div class="visual-lines">
+                        <svg viewBox="0 0 300 200" class="line-chart">
+                            <polyline class="chart-line" points="0,180 30,160 60,140 90,155 120,120 150,100 180,110 210,70 240,50 270,60 300,20"/>
+                            <polyline class="chart-line-shadow" points="0,180 30,160 60,140 90,155 120,120 150,100 180,110 210,70 240,50 270,60 300,20"/>
+                        </svg>
+                    </div>
+                    <div class="visual-grid-lines"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="why" class="story-section">
+        <div class="story-container">
+            <div class="story-header">
+                <h2 class="section-title">
+                    <span class="title-small">The backstory</span>
+                    <span class="title-large">Why I'm building this</span>
+                </h2>
+            </div>
+
+            <div class="story-content">
+                <div class="story-block">
+                    <p class="story-lead">
+                        I've been dollar cost averaging on centralized exchanges for a while now.
+                        It works. Set up recurring buys, and the exchange handles everything: tracks
+                        every entry, calculates your average cost, shows your P&L, accounts for fees.
+                    </p>
+                    <p>
+                        But I don't love keeping my funds on an exchange. The whole "not your keys,
+                        not your coins" thing isn't just a meme. Exchanges get hacked. They freeze accounts.
+                        They go bankrupt. I'd rather have full custody of my assets.
+                    </p>
+                </div>
+
+                <div class="story-block">
+                    <p>
+                        So I started looking into decentralized alternatives. THORChain, Rujira, CALC Finance.
+                        These protocols let you DCA without a middleman. Self custody, no KYC, no permission needed.
+                    </p>
+                    <p>
+                        The problem? When you go decentralized, you lose all the nice portfolio tracking
+                        that exchanges give you for free. Suddenly I'm back to spreadsheets, scrolling through
+                        block explorers, trying to calculate my average entry price by hand.
+                    </p>
+                </div>
+
+                <div class="story-highlight">
+                    <span class="highlight-mark">◈</span>
+                    <p>
+                        The whole point of DCA is to automate and remove emotion from investing.
+                        Going decentralized shouldn't mean losing visibility into my own portfolio.
+                    </p>
+                </div>
+
+                <div class="story-block">
+                    <p>
+                        That's what this project is about. I want to build my own analytics layer
+                        that queries the blockchain, parses my DCA transactions, and tells me what
+                        I actually need to know: average cost basis, number of entries, fees paid,
+                        current P&L.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="control-section">
+        <div class="control-container">
+            <div class="control-header">
+                <h2 class="section-title">
+                    <span class="title-small">The bigger picture</span>
+                    <span class="title-large">Owning the whole pipeline</span>
+                </h2>
+            </div>
+
+            <div class="control-content">
+                <div class="control-block">
+                    <p class="control-lead">
+                        This isn't just about replacing an exchange. It's about owning my entire investment flow.
+                    </p>
+                    <p>
+                        I already have automated bank transfers that convert fiat to stablecoins.
+                        That part doesn't change. What changes is where those stablecoins go next:
+                        into protocols I control, executing strategies I define.
+                    </p>
+                </div>
+
+                <div class="pipeline-visual">
+                    <div class="pipeline-step">
+                        <span class="pipeline-label">Bank Account</span>
+                        <span class="pipeline-desc">Auto payment</span>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step">
+                        <span class="pipeline-label">Fiat to USDT</span>
+                        <span class="pipeline-desc">On ramp</span>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step">
+                        <span class="pipeline-label">THORChain</span>
+                        <span class="pipeline-desc">DCA execution</span>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step active">
+                        <span class="pipeline-label">CALC Portfolio</span>
+                        <span class="pipeline-desc">Analytics</span>
+                    </div>
+                </div>
+
+                <div class="control-block">
+                    <p>
+                        Building this myself also means I can add features no exchange would ever offer.
+                        Things like: if an asset gains more than 30%, automatically sell a portion and
+                        recycle those gains back into the DCA pool. Lock in profits without exiting entirely.
+                        Reduce volatility without trying to time the market.
+                    </p>
+                    <p>
+                        Exchanges give you "buy X every week" and that's it. When you control the pipeline,
+                        you can build strategies that actually match how you think about risk and reward.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="what" class="solution-section">
+        <div class="solution-container">
+            <div class="solution-header">
+                <h2 class="section-title">
+                    <span class="title-small">The project</span>
+                    <span class="title-large">What I'm building</span>
+                </h2>
+            </div>
+
+            <div class="solution-content">
+                <div class="solution-intro">
+                    <p class="solution-lead">
+                        CALC Portfolio will query the blockchain directly, parse my DCA transactions,
+                        and give me the visibility I'm missing.
+                    </p>
+                    <p>
+                        Enter a THORChain or Rujira address, fetch the transaction history,
+                        identify DCA orders, calculate true cost basis with fees included,
+                        and show exactly where things stand.
+                    </p>
+                </div>
+
+                <div class="solution-features">
+                    <div class="solution-feature">
+                        <div class="feature-bullet">→</div>
+                        <div>
+                            <h4>Per asset analytics</h4>
+                            <p>Average cost per unit, total acquired, number of entries, fees paid, current value, P&L.</p>
+                        </div>
+                    </div>
+
+                    <div class="solution-feature">
+                        <div class="feature-bullet">→</div>
+                        <div>
+                            <h4>Aggregate view</h4>
+                            <p>Total stablecoins deployed, overall portfolio value, combined P&L across all assets.</p>
+                        </div>
+                    </div>
+
+                    <div class="solution-feature">
+                        <div class="feature-bullet">→</div>
+                        <div>
+                            <h4>True cost basis</h4>
+                            <p>Gas fees factored in. Every transaction accounted for. No more guessing.</p>
+                        </div>
+                    </div>
+
+                    <div class="solution-feature">
+                        <div class="feature-bullet">→</div>
+                        <div>
+                            <h4>Multi address support</h4>
+                            <p>Track multiple wallets and aggregate everything into one view.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stack-section">
+        <div class="stack-container">
+            <div class="stack-header">
+                <h3>Built to work with</h3>
+            </div>
+            <div class="stack-logos">
+                <a href="https://thorchain.org" target="_blank" rel="noopener" class="stack-item">
+                    <span class="stack-name">THORChain</span>
+                    <span class="stack-desc">Crosschain liquidity</span>
+                </a>
+                <a href="https://rujira.network" target="_blank" rel="noopener" class="stack-item">
+                    <span class="stack-name">Rujira</span>
+                    <span class="stack-desc">DCA automation</span>
+                </a>
+                <a href="https://calculated.fi" target="_blank" rel="noopener" class="stack-item">
+                    <span class="stack-name">CALC Finance</span>
+                    <span class="stack-desc">Strategy execution</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="status-section">
+        <div class="status-container">
+            <div class="status-content">
+                <h2>Current status</h2>
+                <p class="status-label">Work in progress</p>
+                <p class="status-desc">
+                    This is an active project. The landing page you're looking at is the first step.
+                    Next up: building out the actual portfolio tracking functionality.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-mark">◈</span>
+                    <span class="logo-text">CALC Portfolio</span>
+                </div>
+                <p>A personal project for decentralized DCA analytics.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>This project</h4>
+                    <a href="#why">Why I'm building this</a>
+                    <a href="#what">What I'm building</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Ecosystem</h4>
+                    <a href="https://thorchain.org" target="_blank" rel="noopener">THORChain</a>
+                    <a href="https://rujira.network" target="_blank" rel="noopener">Rujira</a>
+                    <a href="https://calculated.fi" target="_blank" rel="noopener">CALC Finance</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>A project by Hamish</p>
+            <p class="footer-year">2025</p>
+        </div>
+    </footer>
+
+    <script>
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.story-block, .story-highlight, .solution-feature, .status-content').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Parallax effect on hero visual
+        const heroVisual = document.querySelector('.hero-visual');
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            if (heroVisual && scrolled < window.innerHeight) {
+                heroVisual.style.transform = `translateY(${scrolled * 0.15}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
